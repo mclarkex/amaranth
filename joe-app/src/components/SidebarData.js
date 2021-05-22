@@ -2,8 +2,9 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import { TextField } from '@material-ui/core'
 
-export const SidebarData = [
+export const LeftSidebarData = [
   {
     title: 'Home',
     path: '/',
@@ -33,5 +34,17 @@ export const SidebarData = [
     path: '/support',
     icon: <IoIcons.IoMdHelpCircle />,
     cName: 'nav-text'
+  }
+];
+
+export const RightSidebarData = [
+  {
+    title: 'Chat',
+    icon: <AiIcons.AiFillWechat />,
+    cName: 'nav-text'
+  },
+  {
+    icon: <form noValidate autoComplete="off"> <TextField id="outlined-basic" label="chat" variant="outlined" color="primary"/> </form>, 
+    cName: 'nav-input-text'
   }
 ];

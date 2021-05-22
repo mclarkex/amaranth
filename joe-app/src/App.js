@@ -18,8 +18,9 @@ function App() {
             <Route path='/characters'  component={Characters} />
             <Route path='/team'        component={Team} />
           </Switch>
+          <Footer/>
         </Router>
-        <Footer/>
+
       </div>
   );
 }
