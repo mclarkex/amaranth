@@ -1,5 +1,6 @@
 .footer {
-    background: #54a3ff;
+    background-color: #282931;
+    color: #f5f5f5;
     grid-area: foot;
     text-align: center;
   }
